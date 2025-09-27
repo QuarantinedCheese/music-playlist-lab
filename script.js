@@ -50,7 +50,7 @@ function displaySelectedSongs() {
 
     let lastSong = mySongs[mySongs.length-1];
 
-    let middleSong = mySongs[Math.floor(mySongs.length/2)]
+    let middleSong = mySongs[Math.floor(mySongs.length/2)];
 
     // DOM operations handled for you - focus on the array logic above
     document.getElementById('first-song').textContent = firstSong;
